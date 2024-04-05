@@ -20,7 +20,7 @@ const TodoList = () => {
     )
   }
   return (
-    <ul className="lg:h-3/4 lg:w-full lg:overflow-y-scroll lg:px-8">
+    <ul className="z-50 lg:h-3/4 lg:w-full lg:overflow-y-scroll lg:p-12">
       {sortedTodos.map((todo) => (
         <TodoItem
           key={todo.id}
