@@ -1,4 +1,5 @@
-import useTodos, { UseTodosReturn } from '@/app/hooks/useTodos'
+import useTodos from '@/app/hooks/useTodos'
+import { UseTodosReturn } from '@/types'
 import React, { createContext, useContext } from 'react'
 
 const TodosContext = createContext<UseTodosReturn | null>(null)

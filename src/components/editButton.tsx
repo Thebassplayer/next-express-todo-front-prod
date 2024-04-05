@@ -1,4 +1,3 @@
-import { UpdateTodo } from '@/app/hooks/useTodos'
 import Link from 'next/link'
 import Tooltip from './tooltip'
 

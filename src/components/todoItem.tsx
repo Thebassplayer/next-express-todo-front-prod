@@ -2,10 +2,10 @@ import { cx } from '@/app/utils/styles'
 import DeleteButton from './deleteButton'
 import EditButton from './editButton'
 import DoneButton from './doneButton'
-import { DeleteTodo, Todo, UpdateTodo } from '@/app/hooks/useTodos'
 import Spinner from './spinner'
 import Tooltip from './tooltip'
 import transformDateFormat from '@/app/utils/dateFormatter'
+import { DeleteTodo, Todo, UpdateTodo } from '@/types'
 
 type TodoItem = {
   todo: Todo

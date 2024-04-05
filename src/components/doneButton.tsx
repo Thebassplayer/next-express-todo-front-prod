@@ -1,6 +1,6 @@
-import useTodos, { UpdateTodo } from '@/app/hooks/useTodos'
 import { cx } from '@/app/utils/styles'
 import Tooltip from './tooltip'
+import { UpdateTodo } from '@/types'
 
 type DoneButtonProps = {
   id: number

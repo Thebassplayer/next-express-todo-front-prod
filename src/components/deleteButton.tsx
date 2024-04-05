@@ -1,4 +1,4 @@
-import { DeleteTodo } from '@/app/hooks/useTodos'
+import { DeleteTodo } from '@/types'
 import Tooltip from './tooltip'
 
 type DeleteButtonProps = {
