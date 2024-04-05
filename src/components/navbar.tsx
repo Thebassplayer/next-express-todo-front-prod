@@ -23,7 +23,7 @@ export default function Navbar() {
         <ThumbNail image={picture} />
         <a
           href={'/api/auth/logout'}
-          className=" rounded-md px-20 py-2 text-xl font-bold uppercase text-black transition-transform  delay-150 duration-300 ease-in-out hover:scale-110 active:scale-90"
+          className=" rounded-md py-2 text-xl font-bold uppercase text-black transition-transform delay-150  duration-300 ease-in-out hover:scale-110 active:scale-90 lg:px-20"
         >
           Logout
         </a>
