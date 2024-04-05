@@ -11,7 +11,7 @@ const AuthButton = ({ buttonState }: AuthButtonProps) => {
   const { user, isLoading, error } = useUser()
 
   const linkClasses =
-    'rounded-md border-2 border-black bg-black px-20 py-2 font-bold transition-colors hover:border-2 hover:border-black'
+    'rounded-md border-2 border-black bg-black px-20 py-2 font-bold transition-colors hover:border-2 hover:border-black text-white'
 
   if (isLoading) {
     return <Spinner />
