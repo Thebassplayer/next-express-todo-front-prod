@@ -1,4 +1,4 @@
-import { Todo } from '../hooks/useTodos'
+import { Todo } from '@/types'
 
 function sortTodosByDate(todos: Todo[]): Todo[] {
   return todos.toSorted((a, b) => {
